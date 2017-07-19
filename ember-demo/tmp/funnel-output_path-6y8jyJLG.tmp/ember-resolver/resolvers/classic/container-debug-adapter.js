@@ -1,0 +1,1 @@
+C:/wamp64/www/ember-demo/ember-demo/tmp/funnel-input_base_path-VwruY83A.tmp/resolvers/classic/container-debug-adapter.js

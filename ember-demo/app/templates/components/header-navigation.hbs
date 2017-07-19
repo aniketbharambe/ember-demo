@@ -1,0 +1,102 @@
+<!-- Nav Starts Here -->
+	<header class="top-header">
+		<nav class = "navbar navbar-default" role = "navigation">
+	   
+		   <div class = "navbar-header">
+				<button type = "button" class = "navbar-toggle" 
+					data-toggle = "collapse" data-target = "#example-navbar-collapse">
+					<span class = "sr-only">Toggle navigation</span>
+					<span class = "icon-bar"></span>
+					<span class = "icon-bar"></span>
+					<span class = "icon-bar"></span>
+				</button>
+			<a class = "navbar-brand" href = "#">SomeCompany</a>
+		   </div>
+		   
+		   <div class = "collapse navbar-collapse" id = "example-navbar-collapse">
+				<ul class = "nav navbar-nav">
+					<li><a {{action "toggleModal"}}>Pricing</a></li>
+					<li><a href = "#">About</a></li>
+					<li><a href = "#contact">Contact</a></li>
+				</ul>
+		   </div>
+		   
+		</nav>
+	</header>
+<!-- Nav Ends Here -->
+
+
+{{#if isShowingModal}}
+	{{#ember-wormhole to='modals' renderInPlace="true"}}
+		<div id="modals">
+		 <div class="vertical-alignment-helper">
+        <div class="vertical-align-center">
+			<div class="overlay"></div>
+				<div class="dialog">
+					<div class="row">
+						<button class="close" {{action 'toggleModal'}}>&times;</button>
+					</div>
+	    <div class="row">
+			<div class="col-sm-12">
+                <!-- item -->
+                <div class="col-md-4 text-center">
+                    <div class="panel panel-danger panel-pricing">
+                        <div class="panel-heading">
+                            <i class="fa fa-desktop"></i>
+                            <h3>Plan 1</h3>
+                        </div>
+                        <div class="panel-body text-center">
+                            <p><strong>$100 / Month</strong></p>
+                        </div>
+                       
+                        <div class="panel-footer">
+                            <a class="btn btn-lg btn-block btn-danger" href="#">BUY NOW!</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- /item -->
+
+                <!-- item -->
+                <div class="col-md-4 text-center">
+                    <div class="panel panel-warning panel-pricing">
+                        <div class="panel-heading">
+                            <i class="fa fa-desktop"></i>
+                            <h3>Plan 2</h3>
+                        </div>
+                        <div class="panel-body text-center">
+                            <p><strong>$200 / Month</strong></p>
+                        </div>
+                       
+                        <div class="panel-footer">
+                            <a class="btn btn-lg btn-block btn-warning" href="#">BUY NOW!</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- /item -->
+
+                <!-- item -->
+                <div class="col-md-4 text-center">
+                    <div class="panel panel-success panel-pricing">
+                        <div class="panel-heading">
+                            <i class="fa fa-desktop"></i>
+                            <h3>Plan 3</h3>
+                        </div>
+                        <div class="panel-body text-center">
+                            <p><strong>$300 / Month</strong></p>
+                        </div>
+                       
+                        <div class="panel-footer">
+                            <a class="btn btn-lg btn-block btn-success" href="#">BUY NOW!</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- /item -->
+			</div>
+            </div>
+			</div>
+			</div>
+			</div>
+		</div>
+	{{/ember-wormhole}}
+{{/if}}
+

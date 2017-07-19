@@ -1,0 +1,1 @@
+C:/wamp64/www/ember-demo/ember-demo/tmp/broccoli_merge_trees-input_base_path-d3UsnJ5g.tmp/0/helpers/validate-properties.js

@@ -1,0 +1,1 @@
+C:/wamp64/www/ember-demo/ember-demo/tmp/broccoli_merge_trees-input_base_path-uWFoKTAO.tmp/0/initializers/injectStore.js

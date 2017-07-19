@@ -1,0 +1,8 @@
+define("ember-demo/templates/components/hero-header", ["exports"], function (exports) {
+  "use strict";
+
+  Object.defineProperty(exports, "__esModule", {
+    value: true
+  });
+  exports.default = Ember.HTMLBars.template({ "id": "M+s+DWiH", "block": "{\"statements\":[[4,\" Header Starts Here \"],[0,\"\\n\\t\"],[11,\"div\",[]],[15,\"class\",\"header-main\"],[13],[0,\"\\n\\t\\t\"],[11,\"div\",[]],[15,\"class\",\"header-inner\"],[13],[0,\"\\n\\t\\t\\t\"],[11,\"div\",[]],[15,\"class\",\"container\"],[13],[0,\"\\n\\t\\t\\t\\t\\n\\t\\t\\t\\t\"],[11,\"div\",[]],[15,\"class\",\"row\"],[13],[0,\"\\n\\t\\t\\t\\t\\t\"],[11,\"div\",[]],[15,\"class\",\"col-md-12 col-xs-12 col-sm-12\"],[13],[0,\"\\n\\t\\t\\t\\t\\t\\t\"],[11,\"h1\",[]],[13],[0,\"Hello, world!\"],[14],[0,\"\\n\\t\\t\\t\\t\\t\\t\"],[11,\"p\",[]],[13],[0,\"\\n\\t\\t\\t\\t\\t\\t\\tLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\\n\\t\\t\\t\\t\\t\\t\"],[14],[0,\"\\n\\t\\t\\t\\t\\t\\t\"],[11,\"div\",[]],[15,\"class\",\"text-center\"],[13],[0,\"\\n\\t\\t\\t\\t\\t\\t\\t\"],[11,\"input\",[]],[15,\"type\",\"button\"],[15,\"class\",\"btn btn-primary\"],[15,\"value\",\"Learn more »\"],[13],[14],[0,\"\\n\\t\\t\\t\\t\\t\\t\"],[14],[0,\"\\n\\t\\t\\t\\t\\t\"],[14],[0,\"\\n\\t\\t\\t\\t\"],[14],[0,\"\\n\\t\\t\\t\"],[14],[0,\"\\n\\t\\t\"],[14],[0,\"\\n\\t\"],[14],[0,\"\\n\\t\"],[4,\" Header Ends Here \"]],\"locals\":[],\"named\":[],\"yields\":[],\"hasPartials\":false}", "meta": { "moduleName": "ember-demo/templates/components/hero-header.hbs" } });
+});
